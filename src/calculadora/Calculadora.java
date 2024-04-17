@@ -30,7 +30,10 @@ public class Calculadora {
     public Calculadora() {
     }    
     
-   
+       public Calculadora(String numeroSerie) {
+        this.numeroSerie = numeroSerie;
+    }
+    
     // Métodos
     public void suma(double n1, double n2) {
         System.out.println("La suma de " + n1 + " más " + n2 + " es " + (n1 + n2));
@@ -75,10 +78,6 @@ public class Calculadora {
         return numeroSerie;
     }
 
-    public void setNumeroSerie(String numeroSerie) {
-        this.numeroSerie = numeroSerie;
-    }
-    
     @Override
     public String toString(){
         return "La marca es "+ this.marca;
