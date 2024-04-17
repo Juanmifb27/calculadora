@@ -19,8 +19,7 @@ public class main {
         // TODO code application logic here
         // Scanner sc = new Scanner(System.in);
 
-        Calculadora Calc1 = new Calculadora("Casio", "Dpcs1", "SN56654");
-        Calculadora Calc2 = new Calculadora();
+
 
         Calc1.suma(3, 6);
         Calc1.suma(3.0, 6.0);
